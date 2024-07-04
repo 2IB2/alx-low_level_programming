@@ -8,7 +8,7 @@
  * Return: pointer to destination string.
  */
 
-char _*strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 int count_of_bytes:
 
