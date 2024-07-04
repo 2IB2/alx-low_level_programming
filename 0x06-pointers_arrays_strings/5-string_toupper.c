@@ -20,5 +20,5 @@ char *string_toupper(char *x)
 		}
 		length_of_string++;
 	}
-	return (x);
+return (x);
 }
