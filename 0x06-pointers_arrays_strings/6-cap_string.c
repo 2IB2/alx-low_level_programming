@@ -19,9 +19,9 @@ char *cap_string(char *s)
 		}
 		if (s[string_count] == ' ' || s[string_count] == '\t' || s[string_count] == '\n' 
 			|| s[string_count] == ',' || s[string_count] == ';' || s[string_count] ==  '.'
-		       	|| s[string_count] == '.' || s[string_count] == '!' || s[string_count] == '?'
-		       	|| s[string_count] == '"' || s[string_count] == '(' || s[string_count] == ')'
-		       	|| s[string_count] == '{' || s[string_count] == '}')
+			|| s[string_count] == '.' || s[string_count] == '!' || s[string_count] == '?'
+			|| s[string_count] == '"' || s[string_count] == '(' || s[string_count] == ')'
+			|| s[string_count] == '{' || s[string_count] == '}')
 		{
 			if (s[string_count + 1] >= 97 && s[string_count + 1] <= 122)
 			{
