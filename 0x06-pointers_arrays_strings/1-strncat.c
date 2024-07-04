@@ -1,4 +1,4 @@
-#include "main.H"
+#include "main.h"
 /**
  * _strncat - function that concatenates two settings.
  * @dest: destination string pointer.
