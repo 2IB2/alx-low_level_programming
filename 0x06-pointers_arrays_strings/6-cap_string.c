@@ -6,6 +6,7 @@
  *
  * Return: pointer to s.
  */
+
 char *cap_string(char *s)
 {
 	int string_count;
@@ -18,11 +19,7 @@ char *cap_string(char *s)
 		{
 			s[0] = s[0] - 32;
 		}
-		if (s[string_count] == ' ' || s[string_count] == '\t' || s[string_count] == '\n' 
-			|| s[string_count] == ',' || s[string_count] == ';' || s[string_count] ==  '.'
-			|| s[string_count] == '.' || s[string_count] == '!' || s[string_count] == '?'
-			|| s[string_count] == '"' || s[string_count] == '(' || s[string_count] == ')'
-			|| s[string_count] == '{' || s[string_count] == '}')
+		if (s[string_count] == ' ' || s[string_count] == '\t' || s[string_count] == '\n' || s[string_count] == ',' || s[string_count] == ';' || s[string_count] ==  '.' || s[string_count] == '.' || s[string_count] == '!' || s[string_count] == '?' || s[string_count] == '"' || s[string_count] == '(' || s[string_count] == ')' || s[string_count] == '{' || s[string_count] == '}')
 		{
 			if (s[string_count + 1] >= 97 && s[string_count + 1] <= 122)
 			{
